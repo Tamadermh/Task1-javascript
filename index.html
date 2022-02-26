@@ -48,7 +48,12 @@
           event.target.style.backgroundColor = "black";
         })
         //Iterate boxes through a For of loop to add functionallity
-      
+      var box2 =document.getElementsByClassName("box-to-select-2");
+      for (const element of box2){
+        element.addEventListener("click",function(event){
+          event.target.style.backgroundColor="yellow";
+        })
+      }
       }
     </script>
   </body>
